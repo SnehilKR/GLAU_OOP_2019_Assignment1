@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Assignment_1
+{
+public static void main (String[]args)
+{
+    double g=9.8;
+Scanner sc=new Scanner(System.in);
+double t=sc.nextDouble();
+double dist=(g*t*t)/2;
+double speed=(2*dist)/t;
+System.out.println("The speed of the object at "+t +" seconds after its release is "+speed+"  and the distance the object has travelled in the "+t+" seconds after the relase is "+dist);
+}
+}
